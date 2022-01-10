@@ -1,0 +1,37 @@
+.window-title {
+  font-size: 11pt;
+  background-color: white;
+}
+
+.message-container {
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  width: 700px; 
+  min-height:100px; 
+  background: white;
+}
+
+.message-type {
+  font-size: 28pt;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(100, 60, 138);
+  color: white;
+  line-height: 0.8;
+}
+
+.message-content {
+  background-color: #000;
+}
+
+.game-title {
+  font-size: 32pt;
+  color: #fffcd0;
+  line-height: 0.8;
+}
+
+.game-system {
+  font-size: 14pt;
+  color: #fffcd0;
+}
