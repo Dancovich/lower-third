@@ -71,7 +71,7 @@ function App() {
     
     <Container className='message-container' fluid>
       <Row className='window-title'>
-        <Col>Minuto do Fato Randomico</Col>
+        <Col>&nbsp;</Col>
       </Row>
       <Row style={{minHeight: 100}}>
         <Col xs={4} className='message-type align-items-center d-flex' style={{minHeight: 100}}>
