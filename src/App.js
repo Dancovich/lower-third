@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     const asyncCall = async () => {
-      if (typeof(files) === 'undefined' || files === null || files.length === 0) {
+      if (typeof (files) === 'undefined' || files === null || files.length === 0) {
         return;
       }
 
@@ -26,7 +26,7 @@ function App() {
         while (fileIndex < 0 || fileIndex > files.length - 1) {
           fileIndex = Math.round(Math.random() * files.length) | 0;
         }
-        
+
         let data = files[fileIndex];
 
         if (data !== null) {
@@ -52,9 +52,14 @@ function App() {
           setTimeout(() => {
             setType(data['tipo']);
             setTitle(entryData['titulo']);
-            setDetail(`${data['jogador']} - ${entryData['descricao']}`);
-            setShow(true);
 
+            if (data['tipo'] !== 'DICAS DA REVISTA') {
+              setDetail(`${data['jogador']} - ${entryData['descricao']}`);
+            } else {
+              setDetail(entryData['descricao']);
+            }
+
+            setShow(true);
             scheduleHide();
           }, randomTime);
         } else {
@@ -67,26 +72,38 @@ function App() {
     asyncCall();
   }, [files, firstTime, scheduleHide, show]);
 
-  return <Fade in={show === true}>
-    
-    <Container className='message-container' fluid>
-      <Row className='window-title'>
-        <Col>&nbsp;</Col>
-      </Row>
-      <Row style={{minHeight: 100}}>
-        <Col xs={4} className='message-type align-items-center d-flex' style={{minHeight: 100}}>
-          <span>{type}</span>
-        </Col>
-        <Col xs={8} className='message-content align-items-center d-flex' style={{minHeight: 100}}>
-          <div>
-            <div className='game-title'>{title}</div>
-            <div className='game-system'>{detail}</div>
-          </div>
-        </Col>
-      </Row>
-    </Container>
-    
-  </Fade>;
+  return type !== 'DICAS DA REVISTA'
+    ? <Fade in={show === true}>
+      <Container className='message-container' fluid>
+        <Row className='window-title'>
+          <Col>&nbsp;</Col>
+        </Row>
+        <Row style={{ minHeight: 100 }}>
+          <Col xs={4} className='message-type align-items-center d-flex' style={{ minHeight: 100 }}>
+            <span>{type}</span>
+          </Col>
+          <Col xs={8} className='message-content align-items-center d-flex' style={{ minHeight: 100 }}>
+            <div>
+              <div className='game-title'>{title}</div>
+              <div className='game-system'>{detail}</div>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </Fade>
+    : <Fade in={show === true}>
+      <Container className='message-magazine-container' fluid>
+        <Row>
+          <Col className='magazine-type'>{type}</Col>
+        </Row>
+        <Row>
+          <Col className='magazine-text'>{title}</Col>
+        </Row>
+        <Row>
+          <Col className='magazine-detail'>{detail}</Col>
+        </Row>
+      </Container>
+    </Fade>;
 }
 
 export default App;

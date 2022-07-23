@@ -3,13 +3,21 @@
   background-color: white;
 }
 
-.message-container {
-  position: absolute; 
-  top: 0px; 
-  left: 0px; 
-  width: 700px; 
-  min-height:100px; 
+.message-container,
+.message-magazine-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 700px;
+  min-height: 100px;
   background: white;
+}
+
+.message-magazine-container {
+  background-image: url(assets/dicas_revista_bg.png);
+  background-position: left top;
+  background-size: cover;
+  padding: 6px 6px 6px 130px;
 }
 
 .message-type {
@@ -34,4 +42,25 @@
 .game-system {
   font-size: 14pt;
   color: #fffcd0;
+}
+
+.magazine-type {
+  font-size: 16pt;
+  font-weight: 800;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 2px;
+}
+
+.magazine-text {
+  font-size: 12pt;
+  font-weight: 600;
+  font-family: 'Noto Serif', serif;
+  margin-top: 2px;
+}
+
+.magazine-detail {
+  font-size: 11pt;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 4px;
 }
