@@ -11,8 +11,8 @@ function App() {
 
   const files = useMemo(() => window.jsonFiles, []);
 
-  const scheduleHide = useCallback(() => {
-    setTimeout(() => setShow(false), 10000);
+  const scheduleHide = useCallback((hideAfter = 10000) => {
+    setTimeout(() => setShow(false), hideAfter);
   }, []);
 
   useEffect(() => {
@@ -60,7 +60,7 @@ function App() {
             }
 
             setShow(true);
-            scheduleHide();
+            scheduleHide(data['tipo'] !== 'DICAS DA REVISTA' ? 10000 : 16000);
           }, randomTime);
         } else {
           setShow(null);
