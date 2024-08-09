@@ -140,6 +140,26 @@ export function adicionarLista() {
       {
         'titulo': 'Star Wars Arcade',
         'descricao': 'Mega 32X'
+      },
+      {
+        'titulo': 'Masters Of The Universe',
+        'descricao': 'Atari ST'
+      },
+      {
+        'titulo': 'Gemini Wing',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Mad Dog McCree 2: The Lost Gold',
+        'descricao': '3DO'
+      },
+      {
+        'titulo': 'Galaxy Force 2',
+        'descricao': 'Saturn'
+      },
+      {
+        'titulo': 'Galaxy Force 2',
+        'descricao': 'PlayStation 2'
       }
     ]
   });

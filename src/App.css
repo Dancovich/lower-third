@@ -1,66 +1,42 @@
-.window-title {
-  font-size: 11pt;
-  background-color: white;
-}
-
-.message-container,
-.message-magazine-container {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 700px;
-  min-height: 100px;
-  background: white;
-}
-
-.message-magazine-container {
-  background-image: url(assets/dicas_revista_bg.png);
-  background-position: left top;
-  background-size: cover;
-  padding: 6px 6px 6px 130px;
-}
-
-.message-type {
-  font-size: 28pt;
-  font-weight: bold;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
-  background-color: rgb(100, 60, 138);
-  color: white;
-  line-height: 0.8;
 }
 
-.message-content {
-  background-color: #000;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.game-title {
-  font-size: 32pt;
-  color: #fffcd0;
-  line-height: 0.8;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.game-system {
-  font-size: 14pt;
-  color: #fffcd0;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
 
-.magazine-type {
-  font-size: 18pt;
-  font-weight: 800;
-  font-family: 'Noto Sans', sans-serif;
-  margin-top: 2px;
+.card {
+  padding: 2em;
 }
 
-.magazine-text {
-  font-size: 17pt;
-  font-weight: 700;
-  font-family: 'Noto Serif', serif;
-  margin-top: 4px;
-}
-
-.magazine-detail {
-  font-size: 15pt;
-  font-weight: 400;
-  font-family: 'Noto Sans', sans-serif;
-  margin-top: 6px;
+.read-the-docs {
+  color: #888;
 }

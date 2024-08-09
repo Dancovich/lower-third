@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+  <title>Lower third</title>
+
+  <script src="/config.js"></script>
+
+  <script>
+    var jsonFiles = [];
+    function pushFile(json) {
+      jsonFiles.push(json);
+    }
+  </script>
+
+  <script type="module"
+    src="/master_list_eric.mjs"></script>
+  <script type="module"
+    src="/master_list_danilo.mjs"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module"
+    src="/src/main.tsx"></script>
+</body>
+
+</html>

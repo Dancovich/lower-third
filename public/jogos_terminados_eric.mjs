@@ -415,7 +415,7 @@ export function adicionarLista() {
       },
       {
         'titulo': 'Kirby\'s Dream Land',
-        'descricao': 'Game Boy/GBC'
+        'descricao': 'Game Boy'
       },
       {
         'titulo': 'Ninja Five-O',
@@ -1422,7 +1422,7 @@ export function adicionarLista() {
         'descricao': 'Xbox 360'
       },
       {
-        'titulo': 'BioShock Infinit',
+        'titulo': 'BioShock Infinite',
         'descricao': 'Xbox 360'
       },
       {
@@ -1960,7 +1960,435 @@ export function adicionarLista() {
       {
         'titulo': 'Resident Evil 3: Nemesis',
         'descricao': 'GameCube'
-      }
+      },
+      {
+        'titulo': 'Turtles Shredder\'s Revenge',
+        'descricao': 'Switch'
+      },
+      {
+        'titulo': 'The King Of Dragons',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Metal Law',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Lorna',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Gaia Seed',
+        'descricao': 'PlayStation'
+      },
+      {
+        'titulo': 'Submarine Attack',
+        'descricao': 'Master System'
+      },
+      {
+        'titulo': 'Bad Dudes',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'RobertCop 2 Vs Dragonninja',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Gaia Crusaders',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Adulting',
+        'descricao': 'Game Boy'
+      },
+      {
+        'titulo': 'Zombiehunter Bob',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Quake',
+        'descricao': 'Nintendo 64'
+      },
+      {
+        'titulo': 'One',
+        'descricao': 'PlayStation'
+      },
+      {
+        'titulo': 'Ys II Ancient Ys Vanished – The Final Chapter',
+        'descricao': 'PC'
+      },
+      {
+        'titulo': 'Blaynix',
+        'descricao': 'PC'
+      },
+      {
+        'titulo': 'Beast Vs. Aliens',
+        'descricao': 'Fangame'
+      },
+      {
+        'titulo': 'Tracy NESCapades',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Rekt',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Shadow Of The Ninja',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'In Utero',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'After Burner II',
+        'descricao': 'Saturn'
+      },
+      {
+        'titulo': 'The Plague',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Bay Route',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Gargoyles',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Prisoners Of War',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Stranded',
+        'descricao': 'PC'
+      },
+      {
+        'titulo': 'Out Zone',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Vampire Survivor',
+        'descricao': 'Xbox One'
+      },
+      {
+        'titulo': 'F-Zero X',
+        'descricao': 'Nintendo 64'
+      },
+      {
+        'titulo': 'U.N. Squadron',
+        'descricao': 'Super Nintendo'
+      },
+      {
+        'titulo': 'Keystone Kapers',
+        'descricao': 'Atari 2600'
+      },
+      {
+        'titulo': 'Shattering Jaws',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'AshGuine',
+        'descricao': 'MSX'
+      },
+      {
+        'titulo': 'Quest For The Golden Chalice',
+        'descricao': 'ColecoVision'
+      },
+      {
+        'titulo': 'Magician Lord',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Double Dragon',
+        'descricao': 'Zeebo'
+      },
+      {
+        'titulo': 'Seitar',
+        'descricao': 'Master System'
+      },
+      {
+        'titulo': 'Forgotten Worlds',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Wrath Of The Demon',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Metal Black',
+        'descricao': 'Saturn'
+      },
+      {
+        'titulo': 'Street Fighter 2: Special Champion Edition',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Super Street Fighter 2: The New Challengers',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Space Invaders 91',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Doman: Grzechy Ardana',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'In The Hunt',
+        'descricao': 'Arcade'
+      },
+      {
+        'titulo': 'Mad Dog McCree',
+        'descricao': '3DO'
+      },
+      {
+        'titulo': 'GG Aleste 3',
+        'descricao': 'Game Gear'
+      },
+      {
+        'titulo': 'Agony',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Pole Position',
+        'descricao': 'Atari 2600'
+      },
+      {
+        'titulo': 'Ecco The Dolphin',
+        'descricao': 'Sega CD'
+      },
+      {
+        'titulo': 'TMNT II: The Arcade Game',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'TMNT III: The Manhattan Project',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Laser Gates',
+        'descricao': 'Atari 2600'
+      },
+      {
+        'titulo': 'Metal Morph',
+        'descricao': 'Super Nintendo'
+      },
+      {
+        'titulo': 'Waldo Forever',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Unreal',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Ushio To Tora',
+        'descricao': 'Super Nintendo'
+      },
+      {
+        'titulo': 'Out Run 2',
+        'descricao': 'Xbox'
+      },
+      {
+        'titulo': 'S.C.A.T.',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Pier Solar And The Great Architects',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'The Legendary Axe II',
+        'descricao': 'PC Engine'
+      },
+      {
+        'titulo': 'Drelbs',
+        'descricao': 'Atari 7800'
+      },
+      {
+        'titulo': 'Stargunner',
+        'descricao': 'PC'
+      },
+      {
+        'titulo': 'Wurm: Journey To The Center Of The Earth',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Beast Vs Aliens',
+        'descricao': 'PC (Fangame)'
+      },
+      {
+        'titulo': 'Robocop Vs Predator',
+        'descricao': 'PC (Fangame)'
+      },
+      {
+        'titulo': 'Hamburgers En Route To Switzerland',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Borderline',
+        'descricao': 'Super Nintendo'
+      },
+      {
+        'titulo': 'Fantasy Zone',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Monky Quest',
+        'descricao': 'Game Boy'
+      },
+      {
+        'titulo': 'Astro Marine Corps',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Phoenix 3',
+        'descricao': '3DO'
+      },
+      {
+        'titulo': 'Risky Woods',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Power Blade',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Aliens: Neoplasma',
+        'descricao': 'ZX Spectrum Next'
+      },
+      {
+        'titulo': 'Devastator',
+        'descricao': 'Sega CD'
+      },
+      {
+        'titulo': 'Kishin Douji Zenki: Battle Raiden',
+        'descricao': 'Super Nintendo'
+      },
+      {
+        'titulo': 'Border Down',
+        'descricao': 'Dreamcast'
+      },
+      {
+        'titulo': 'Sword Of Honour',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Bloody Wolf',
+        'descricao': 'PC Engine'
+      },
+      {
+        'titulo': 'Maze Hunter 3D',
+        'descricao': 'Master System'
+      },
+      {
+        'titulo': 'Indiana Jones Greatest Adventures',
+        'descricao': 'Super Nintendo'
+      },
+      {
+        'titulo': 'Pitfall II: Lost Caverns',
+        'descricao': 'Atari 2600'
+      },
+      {
+        'titulo': 'Haunted House',
+        'descricao': 'Atari 2600'
+      },
+      {
+        'titulo': 'EDEN: A Genesis Through Time',
+        'descricao': 'PC'
+      },
+      {
+        'titulo': 'Arcus Odyssey',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Soul Of The Beast',
+        'descricao': 'Atari 2600'
+      },
+      {
+        'titulo': 'The Chaos Engine',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Knife Edge',
+        'descricao': 'Nintendo 64'
+      },
+      {
+        'titulo': 'Star Seed',
+        'descricao': 'Game Boy Color'
+      },
+      {
+        'titulo': 'Star Seed 2',
+        'descricao': 'Game Boy Color'
+      },
+      {
+        'titulo': 'Time\'s Up',
+        'descricao': 'Neo Geo CD'
+      },
+      {
+        'titulo': 'Beholgar',
+        'descricao': 'PC'
+      },
+      {
+        'titulo': 'Clash At Demonhead',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Ozzy The Goo Slime Quest',
+        'descricao': 'Atari 2600'
+      },
+      {
+        'titulo': 'Prince Of Persia The Sands Of Time',
+        'descricao': 'PlayStation 3'
+      },
+      {
+        'titulo': 'Goof Troop',
+        'descricao': 'Super Nintendo'
+      },
+      {
+        'titulo': 'Dark Angel',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'Devilish The Next Possession',
+        'descricao': 'Mega Drive'
+      },
+      {
+        'titulo': 'Antarctic Adventure',
+        'descricao': 'Nintendo'
+      },
+      {
+        'titulo': 'Kirby Epic Yarn',
+        'descricao': 'Wii'
+      },
+      {
+        'titulo': 'Antarctic Adventure',
+        'descricao': 'MSX'
+      },
+      {
+        'titulo': 'Space Harrier',
+        'descricao': '32X'
+      },
+      {
+        'titulo': 'Space Harrier',
+        'descricao': 'Saturn'
+      },
+      {
+        'titulo': 'Entity',
+        'descricao': 'Amiga'
+      },
+      {
+        'titulo': 'The Adventures Of Lomax',
+        'descricao': 'PlayStation'
+      },
+      {
+        'titulo': 'Golden Axe',
+        'descricao': 'PC Engine CD'
+      },
     ]
   });
 }
