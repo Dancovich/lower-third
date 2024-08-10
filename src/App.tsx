@@ -5,7 +5,7 @@ import backgroundAmericanish from './assets/americanish.png'
 import backgroundCockroach from './assets/cockroach.png'
 import backgroundEd209 from './assets/ed209.png'
 import backgroundEngrish from './assets/engrish.png'
-import backgroundGigger from './assets/gigger.png'
+import backgroundGiger from './assets/giger.png'
 import backgroundHornet from './assets/hornet.png'
 import backgroundKubrick from './assets/kubrick.png'
 import backgroundMimic from './assets/mimic.png'
@@ -40,6 +40,7 @@ export default function App() {
   const minTime = useMemo(() => window.TEMPO_MINIMO * 1000, [])
   const maxTime = useMemo(() => window.TEMPO_MAXIMO * 1000, [])
 
+  const [firstTime, setFirstTime] = useState(true)
   const [show, setShow] = useState(false)
   const [currentFile, setCurrentFile] = useState<File | undefined>()  
   const [currentDataIndex, setCurrentDataIndex] = useState(-1)
@@ -51,11 +52,12 @@ export default function App() {
 
     if (!show) {
       const deltaTime = maxTime - minTime
-      const randomTime = (Math.floor(Math.random() * (deltaTime + 1))) + minTime
+      const randomTime = firstTime ? 5000 : (Math.floor(Math.random() * (deltaTime + 1))) + minTime
 
       console.log(`Próximo lowerthird: ${randomTime / 1000} segundos`)
       timeoutId = setTimeout(() => {
         if (isMounted) {
+          setFirstTime(false)
           setShow(true)
         }
       }, randomTime)
@@ -71,7 +73,7 @@ export default function App() {
       isMounted = false
       clearTimeout(timeoutId)
     })
-  }, [maxTime, minTime, show])
+  }, [firstTime, maxTime, minTime, show])
 
 
   useEffect(() => {
@@ -153,7 +155,7 @@ export default function App() {
         image={backgroundPauseCutscene}
         when={currentData.descricao} />
 
-    case "CONTADOR STORMS":
+    case "CONTADOR RELÂMPAGOS":
       return <Counter show={show}
         type={currentFile.tipo}
         count={padNumber(currentDataIndex + 1, 3)}
@@ -209,12 +211,12 @@ export default function App() {
         image={backgroundCockroach}
         when={currentData.descricao} />
     
-    case "CONTADOR H. R. GIGGER":
+    case "CONTADOR H. R. GIGER":
       return <Counter show={show}
         type={currentFile.tipo}
         count={padNumber(currentDataIndex + 1, 3)}
         game={currentData.titulo}
-        image={backgroundGigger}
+        image={backgroundGiger}
         when={currentData.descricao} />
       
 
